@@ -1,0 +1,35 @@
+<div class="register">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <form  #f="ngForm" class="form">
+        <h1> Login </h1><br>
+       
+        <div class="Form-group">
+            <i id="i1" class="fa fa-user" aria-hidden="true"></i>
+            <input type="text" id="name " [(ngModel)]="name" name="name" placeholder="name" class="form-control" required/><br><br>
+        </div>
+        <div class="Form-group">
+            <i id="i3" class="fa fa-envelope" aria-hidden="true"></i>
+            <input type="email" id="email" [(ngModel)]="email" name="email" placeholder="email"class="form-control" required /><br><br>
+        </div>
+        
+        <div class="Form-group">
+            <i id="i2" class="fa fa-lock" aria-hidden="true"></i>
+            <input type="password" id="password" [(ngModel)]="password" name="password" placeholder="password"class="form-control" required /><br><br>
+        </div>
+        
+        <div class="Form-group">
+            <button id="btn3" type="button" class="btn btn-primary" (click)="onSubmit(f)" [disabled]="!f.valid">login</button>
+        </div>
+
+        
+    </form>
+</div>
+
+
+
+
+
+
+
+

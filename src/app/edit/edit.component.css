@@ -1,0 +1,39 @@
+.register{
+   
+      position: relative;
+      z-index: 1;
+      
+      margin-left: 15%;
+      padding: 45px;
+      text-align: center;
+      color: white;
+      
+      
+  }
+  #btn3{
+    background-color: green;
+    color: white;
+  }
+  input.ng-invalid.ng-touched{
+    border-color: red;
+  }  
+  .form{
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+  input{
+    height: 40px;
+    width: 300px;
+    opacity:60%;
+    
+    background-color:black;
+    color: white;
+  }
+  #btn3{
+    background-color:green;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+  } 

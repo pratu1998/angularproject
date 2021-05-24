@@ -1,0 +1,55 @@
+.emp{
+    position: relative;
+      z-index: 1;
+      
+      max-width: 600px;
+      margin-left: 40%;
+      padding: 20px;
+      text-align: center;
+      height: 50%;
+      width:45%;
+      color: white;
+      
+      
+      
+      
+      
+  
+}
+td{
+  background: lightblue;
+  padding: 5px;
+}
+th{
+  background:  darkblue;
+  color: white;
+  padding: 10PX;
+  text-align: center;
+  opacity: 60%;
+
+}
+.table{
+ margin-left: 10% ;
+ 
+}
+.myclass{
+  margin-top: 25%;
+}
+.btn{
+  height: 40px;
+  width: 150px;
+  text-align: center;
+  margin-left: 70%;
+  margin-top: 2%;
+  background-color: green;
+  color: white;
+}
+.btn2{
+  height: 40px;
+  width: 150px;
+  text-align: center;
+background-color: blue;
+color: white;
+
+  
+}

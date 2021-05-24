@@ -1,0 +1,73 @@
+.emp{
+    position: relative;
+      z-index: 1;
+    
+      margin-left: 45%;
+      border-color: black;
+
+      height: 100%;
+      width: 400px;
+      padding: 20px;
+      text-align: center;
+      color: white;
+}
+.form{
+  margin-top: 20%;
+  margin-left: 10%;
+}
+#btn3{
+  background-color:green;
+  color: white;
+  height: 40px;
+  width: 150px;
+  border-top-left-radius: 25%;
+  border-bottom-right-radius: 25%;
+} 
+input.ng-invalid.ng-touched{
+  border-color: red;
+  border-style: double;
+} 
+ input{
+   height: 40px;
+   width: 300px;
+   opacity:60%;
+   
+   background-color:black;
+   color: white;
+  
+   
+   
+
+  
+ }  
+ h1{
+   border-bottom: green;
+ }
+ #i1{
+   font-size: 35px;
+   height: 40px;
+   width: 10pxpx;
+   opacity:60%;
+   position: absolute;
+   left: 60px;
+   top: 185px;
+   z-index: 1;
+   
+ }
+ 
+ #i2{
+  font-size: 40px;
+  height: 100px;
+  width: 10px;
+  opacity:60%;
+  position: absolute;
+  left: 60px;
+  top: 265px;
+  z-index: 1;
+  
+}
+
+      
+      
+  
+

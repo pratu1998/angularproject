@@ -1,0 +1,35 @@
+
+table, th, td {
+    border: 1px solid white;
+    margin-left: 30%;
+    color: white;
+    margin-top: 100%;
+    width: 300px;
+    
+  }
+  .t1{
+    position: relative;
+      z-index: 1;
+    
+      margin-left: 45%;
+      border-color: black;
+
+      height: 100%;
+      width: 100px;
+      padding: 20px;
+      text-align: center;
+      color: white;
+      
+
+}
+.btn2{
+    height: 40px;
+    width: 150px;
+    text-align: center;
+  background-color: blue;
+  color: white;
+  margin-left: 60%;
+  margin-top: 2%;
+  
+    
+  }

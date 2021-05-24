@@ -1,0 +1,37 @@
+<button routerLink='/edit' class="btn">Add Employee</button>&nbsp; &nbsp;
+<button routerLink='/admin' class="btn2">Back to login</button>
+<div class= "enp2">
+<div class="emp">
+    <div class="myclass">
+   
+    <h2>Employee Informatiom</h2>
+   
+    <table class="table">
+        
+
+        <thead>
+            <th>ID</th>
+            <th>Name </th>
+             <th>Email </th>
+             <th>Type of User</th>
+             <th>Action</th>
+             
+             
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let employee of employees">
+                <td>{{employee.id}}</td>
+                <td>{{employee.name}}</td>
+                <td>{{employee.email}}</td>
+                <td>{{employee.typeofuser}}</td>
+                
+                <td><button (click)="onDelet(employee.id)">x</button></td>
+                
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+</div>
+

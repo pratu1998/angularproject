@@ -1,0 +1,111 @@
+.app{
+    display: flex;
+    position: relative;
+}
+.app.sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    background: #4b4b4b;
+    opacity: 40%;
+}
+.sidebar{
+    /*  position: fixed;
+      z-index: 1;
+      background:rgba(7, 40, 195, 0.8);
+      max-width: 360px;
+    margin:  0px 0 100px;
+      padding: 0px;
+      text-align: center;
+      border-radius: 15%;*/
+      position: fixed;
+    
+      background-color:rgb(78, 51, 153);
+      width: 200px;
+      height: 100%;
+      opacity:75%;
+      padding: 45px;
+      
+      
+      
+      
+      
+  }
+  .p1{
+
+    height: 205px;
+    width: 200px;
+    background-image:url(image3.webp) ;
+    background-size: cover;
+    
+  
+   text-align: center;
+  }
+  .p2{
+    height: 200px;
+    width: 200px;
+    background-image:url(image5.webp) ;
+    background-size: cover;
+    
+    z-index: 1;
+    position: fixed;
+  }
+  .p3{
+    position: absolute;
+  left: 125px;
+  top: 100px;
+  z-index: 1;
+  }
+  #btn1{
+
+    margin-top: 90%;
+    margin-left: 0%;/*  
+    border-radius: 60%;*/
+    height: 24px;
+  width: 70px;
+  z-index: 1;
+    background-color:gray;
+
+  }
+  
+  #btn1:focus{
+    background-color:green;
+  }
+  .p4{
+    position: absolute;
+  left: 121px;
+  top: 399px;
+  z-index: 1;
+  }
+  #btn2{
+
+    margin-top: 87%;
+    margin-left: 0%;/*  
+    border-radius: 60%;*/
+    height: 25px;
+  width: 70px;
+  z-index: 1;
+    background-color:grey;
+
+  }
+  #btn2:focus-visible {
+    background-color:green;
+    
+  }
+  h1{
+    font-size: 60px;
+    position: absolute;
+  left:850px;
+  top: 200px;
+  z-index: 1;
+  color: white;
+  }
+  .p5{
+    position:absolute;
+    width: 100%;
+  left:850px;
+  top: 400px;
+  z-index: 1;
+  color: white;
+  }
+  
